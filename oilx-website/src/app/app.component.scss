@@ -1,0 +1,10 @@
+.section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.section:nth-child(even) {
+  background-color: #e9e9e9;
+}

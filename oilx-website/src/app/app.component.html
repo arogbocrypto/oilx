@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>OILX</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="scrollTo('home')">Home</ion-button>
+      <ion-button (click)="scrollTo('benefits')">Benefits</ion-button>
+      <ion-button (click)="scrollTo('roadmap')">Roadmap</ion-button>
+      <ion-button (click)="scrollTo('faq')">FAQ</ion-button>
+      <ion-button (click)="scrollTo('oilconomics')">Oilconomics</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-home></app-home>
+  <app-benefits></app-benefits>
+  <app-roadmap></app-roadmap>
+  <app-faq></app-faq>
+  <app-oilconomics></app-oilconomics>
+</ion-content>

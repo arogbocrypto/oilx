@@ -1,0 +1,46 @@
+.home {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+
+  .header-background {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/oilrig.png') no-repeat center center/cover;
+
+    .oilrig-image {
+      display: none;
+    }
+
+    .header-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      .logo {
+        width: 150px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        span {
+          color: #ffd700;
+        }
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+
+      ion-button {
+        --background: #ffd700;
+        --color: #000;
+      }
+    }
+  }
+}
